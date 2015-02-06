@@ -1,8 +1,10 @@
 require('./lib/first-round')
 
-describe('') do
+describe('wavecase') do
 
-  it('') do
-    expect().to eq()
+  it('should alternate upcase and downase in the argument') do
+    str = "hello"
+    expect(wavecase(str)).to eq("HeLlO")
   end
+
 end
